@@ -9,6 +9,12 @@ public class ContaCorrente extends conta{
 		this.limite = limite;
 	}
 
+	public ContaCorrente(int gerarNumero, int agencia, int tipo, String titular, float saldo, float limite) {
+		super(gerarNumero, agencia, tipo, titular, saldo);
+        this.limite = limite;
+		// TODO Auto-generated constructor stub
+	}
+
 	public float getLimite() {
 		return limite;
 	}
